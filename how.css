@@ -56,7 +56,7 @@ body{
 .intro{
     height: 21.2rem;
     width: 22rem;
-    margin: 8% 16.5px;
+    margin: 8% 17px;
     border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.937);
 }
@@ -87,7 +87,7 @@ body{
 .linkinfo{
     height: 19.6rem;
     width: 22rem;
-    margin: 0px 16.5px;
+    margin: 0px 17px;
     border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.937);
 }
@@ -121,7 +121,7 @@ margin: 2% 30px;
 .shareco{
     height: 24.2rem;
     width: 22rem;
-    margin: 0px 16.5px;
+    margin: 0px 17px;
     border-radius: 12px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.937);
@@ -154,7 +154,7 @@ margin: -7.5% 0 0;
 .experi{
     height: 23rem;
     width: 22rem;
-    margin: 0px 16.5px;
+    margin: 0px 17px;
     border-radius: 12px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.937);
@@ -192,7 +192,7 @@ margin: 35%  0px 0;
 .trak{
     height: 26rem;
     width: 22rem;
-    margin: 0px 16.5px;
+    margin: 0px 17px;
     border-radius: 12px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.937);
