@@ -356,7 +356,13 @@ form button:hover {
     }
 }
 .submit{
-    background: #00BCD4;
-    height: 25%;
-    width: 55%;
+    background: #0097a7;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    height: 2.5rem;
+    width: 100%;
+    margin: 20px 0.9%;
+    border-radius: 2px;
+    text-align: center;
+    justify-content: center;
 }

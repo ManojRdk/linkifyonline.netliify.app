@@ -30,7 +30,3 @@ signupLoginLink.forEach(link => {
         formPopup.classList[link.id === 'signup-link' ? 'add' : 'remove']("show-signup");
     });
 });
-
-function windowopen(){
-    window.open("http://127.0.0.1:5501/index.html");
-}
