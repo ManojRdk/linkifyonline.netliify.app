@@ -1,0 +1,387 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contain{
+position: absolute;
+top: 0;
+left: 0;
+height: 3.5rem;
+width: 100%;
+padding: 10px 5px;
+background: rgb(15, 23, 48);
+transition: var(--tran-05);
+}
+.contain img{
+margin: 8px 33%;
+}
+.left{
+margin: -26% -18px;
+}
+.left a img{
+margin: -16.5% 10%;
+cursor: pointer;
+}
+.image img{
+  margin: 19% 73px;
+  margin-bottom: 12%;
+}
+.image h1{
+  margin:-11% 132px;
+  color: #2C2C2C;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 700;
+}
+.image p{
+  margin:17% 27px;
+  margin-bottom: 20px;
+  color: #2C2C2C;
+  font-family:arial;
+  font-size: 14px;
+  font-weight:lighter;
+}
+ .searchBar {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 3px;
+  margin-top:-3%;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+ .container {
+    position:absolute;
+    width: 100%;
+    background: rgba(3, 5, 45, 0.07);
+    margin-top: 5px;
+  }
+
+
+  .box-spotify{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-spotify img{
+    margin: 25px 5%;
+  }
+  .box-spotify h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-spotify h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .spotify-share{
+    margin:-135px 325px;
+  }
+
+  .box-wynk{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-wynk img{
+    margin: 25px 5%;
+    border-radius: 45px;
+  }
+  .box-wynk h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-wynk h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .wynk-share{
+    margin:-135px 325px;
+  }
+
+  .box-youtubemusic{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-youtubemusic img{
+    margin: 25px 5%;
+  }
+  .box-youtubemusic h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-youtubemusic h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .youtubemusic-share{
+    margin:-135px 325px;
+  }
+
+  .box-gaana{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-gaana img{
+    margin: 25px 5%;
+    border-radius: 45px;
+  }
+  .box-gaana h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-gaana h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .gaana-share{
+    margin:-135px 325px;
+  }
+
+  .box-mimusic{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-mimusic img{
+    margin: 25px 5%;
+    
+  }
+  .box-mimusic h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-mimusic h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .mimusic-share{
+    margin:-135px 325px;
+  }
+
+  .box-amazonmusic{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-amazonmusic img{
+    margin: 25px 5%;    
+    border-radius: 45px;
+  }
+  .box-amazonmusic h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-amazonmusic h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .amazonmusic-share{
+    margin:-135px 325px;
+  }
+
+  .box-hungama{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-hungama img{
+    margin: 25px 6%;
+    border-radius: 45px;
+  }
+  .box-hungama h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-hungama h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .hungama-share{
+    margin:-135px 325px;
+  }
+
+  .box-musicappstream{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-musicappstream img{
+    margin: 25px 5%;
+    border-radius: 45px;
+  }
+  .box-musicappstream h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-musicappstream h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .musicappstream-share{
+    margin:-135px 325px;
+  }
+
+  .box-musicplayer{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-musicplayer img{
+    margin: 25px 5%; border-radius: 45px;
+  }
+  .box-musicplayer h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-musicplayer h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .musicplayer-share{
+    margin:-135px 325px;
+  }
+
+  .box-jiosaavn{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-jiosaavn img{
+    margin: 25px 5%;
+    border-radius: 45px;
+  }
+  .box-jiosaavn h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-jiosaavn h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .jiosaavn-share{
+    margin:-135px 325px;
+  }
+
+  .box-ressomusic{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-ressomusic img{
+    margin: 25px 5%;border-radius: 45px;
+  }
+  .box-ressomusic h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-ressomusic h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .ressomusic-share{
+    margin:-135px 325px;
+  }
+
+  .box-soundcloud{
+    width: 94%;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-soundcloud img{
+    margin: 25px 5%;
+    border-radius: 12px;
+  }
+  .box-soundcloud h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 149px;
+  }
+  .box-soundcloud h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 115px;
+  }
+  .soundcloud-share{
+    margin:-135px 325px;
+  }

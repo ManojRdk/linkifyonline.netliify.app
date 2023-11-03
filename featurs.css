@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-pading,5rem);
+}
+body{
+  background:#ffffffc9;
+   } 
+   .contain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3.5rem;
+    width: 100%;
+    padding: 10px 5px;
+    background: rgb(15, 23, 48);
+    transition: var(--tran-05);
+   }
+   .contain img{
+    margin: 8px 32%;
+   }
+   .left{
+    margin: -26% -18px;
+   }
+   .left a img{
+    margin: -16% 10%;
+    cursor: pointer;
+   }
+   .line{
+    border: none;
+    height: 2px;
+    width: 37%;
+    margin: 0.2px 31%;
+    background: #050D37;
+   }
+  .card h1{
+    color:#050D37;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: poppins,sans-serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 20% 0;
+    padding: 0  12px ;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .card h2{
+    color: #050D37;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.378px;
+    margin: 8% 0;
+  }
+
+  .card h3{
+    color: #050D37;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.378px;
+    padding: -18px 0 5px;
+    margin: -3% 0;
+  }
+  .card h4{
+      color: #050D38;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 14.5px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 1.378px;
+      padding: -18px 5px;
+      margin: 8% 15px;
+  }
+
+  .card h5{
+      color: #050D37;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 14.5px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 1.378px;
+      padding: -22px  5px;
+      margin: -4% 15px;
+  }
+
+  .card h6{
+      color: #050D37;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 14.5px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 1.378px;
+      padding: 15px 5px;
+      margin: 4% 5px;
+  }
